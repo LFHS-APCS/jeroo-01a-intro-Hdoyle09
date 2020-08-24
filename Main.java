@@ -17,7 +17,7 @@ public class Main implements Directions {
     }
 
     /**
-     *method main()
+   
 {
    // instantiate the Jeroo (i.e. create it) 
    // and then make a remote control pointing to it called kim
