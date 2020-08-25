@@ -14,25 +14,18 @@ public class Main implements Directions {
     public static void main(String[] args) {
 //        new JerooGUI();
         runJerooCode();
-    }
+   }
 
-    /**
    
-{
-   // instantiate the Jeroo (i.e. create it) 
-   // and then make a remote control pointing to it called kim
-   Jeroo kim = new Jeroo(0, 0, EAST, 1);
-   kim.hop();
-   kim.hop();
-   kim.hop();
-   kim.hop();
-   kim.hop();
-   kim.plant();
-   kim.hop();
-}  
-     */
     public static void runJerooCode() {
-     
+      Jeroo kim = new Jeroo(0, 0, EAST, 1);
+      kim.hop();
+      kim.hop();
+      kim.hop();
+      kim.hop();
+      kim.hop();
+      kim.plant();
+      kim.hop(); 
     }
 
 }
